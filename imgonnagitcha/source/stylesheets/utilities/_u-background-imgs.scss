@@ -1,0 +1,33 @@
+.u-bkg-img {
+  background-size: 100vw;
+  background-position: center top;
+
+  @media screen and (min-width: $breakpoint-large) {
+    background-size: 160vw;
+    background-position: center top;
+  }
+}
+
+.u-bkg-img-1 {
+  background-image: url('https://cdn2.hubspot.net/hubfs/2580292/thoughtbot/backgrounds/repeat-bg-mobile-1-1.svg');
+
+    @media screen and (min-width: $breakpoint-large) {
+        background-image: url('https://cdn2.hubspot.net/hubfs/2580292/thoughtbot/backgrounds/repeat-bg-desktop-1.svg');
+    }
+}
+
+.u-bkg-img-2 {
+  background-image: url('https://cdn2.hubspot.net/hubfs/2580292/thoughtbot/backgrounds/repeat-bg-mobile-2.svg');
+
+  @media screen and (min-width: $breakpoint-large) {
+    background-image: url('https://cdn2.hubspot.net/hubfs/2580292/thoughtbot/backgrounds/repeat-bg-desktop-2-1.svg');
+  }
+}
+
+.u-bkg-img-3 {
+  background-image: url('https://cdn2.hubspot.net/hubfs/2580292/thoughtbot/backgrounds/repeat-bg-mobile-3.svg');
+
+  @media screen and (min-width: $breakpoint-large) {
+    background-image: url('https://cdn2.hubspot.net/hubfs/2580292/thoughtbot/backgrounds/repeat-bg-desktop-3-1.svg');
+  }
+}

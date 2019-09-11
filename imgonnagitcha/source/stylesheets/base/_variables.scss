@@ -1,0 +1,98 @@
+// Breakpoints
+$breakpoint-small: 48rem; // 768px @ 16
+$breakpoint-large: 71.25rem; // 1140px @ 16
+
+// Max-widths
+$max-width-small: 100%;
+$max-width-large: 90rem; //1440px @ 16
+
+// Grid
+$content-max-width: 72rem;
+
+// Spacing
+$spacing-shortest: .75rem; // 12px @ 16
+$spacing-shorter: 1.5rem; // 24px @ 16
+$spacing-short: 2.5rem; // 40px @ 16
+$spacing-medium: 3.5rem; // 56px @ 16
+$spacing-big: 4rem; // 64px @ 16
+$spacing-bigger: 5rem; // 80px @ 16
+$spacing-biggest: 8rem; // 128px @ 16
+
+// Typography
+$base-font-family: 'Cormorant Garamond', serif;
+$heading-font-family: 'Cormorant Garamond', serif;
+$mono-font-family: 'IBM Plex Mono', monospace;
+// font-family: 'Abhaya Libre', serif;
+// font-family: 'Cormorant Garamond', serif;
+// font-family: 'Cutive Mono', monospace;
+// font-family: 'EB Garamond', serif;
+// font-family: 'Gilda Display', serif;
+// font-family: 'IBM Plex Mono', monospace;
+// font-family: 'Ovo', serif;
+// font-family: 'Quattrocento', serif;
+
+
+// Font sizing
+$font-size-baby-shark: 1rem; //16px @ 16
+$font-size-child-shark: 1.125rem; //18px @ 16
+$font-size-teenage-shark: 1.5rem; //24px @ 16
+$font-size-momma-shark: 2.25rem; //36px @ 16
+$font-size-pappa-shark: 4rem; //64px @ 16
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Letter spacing
+$letter-spacing-slight: 0.05em;
+
+// Colors
+$b-lt-warm: #EFBECE;
+$b-md-warm: #FF8786;
+$b-dk-warm: #BF3939;
+// $b-lt-neutral
+// $b-md-neutral
+$b-dk-neutral: #1E6246;
+// $b-lt-cool
+// $b-md-cool
+// $b-dk-cool
+$n-white: #fff;
+$n-off-white: #FAFAFA;
+$n-cl-light: #EEFFFC;
+$n-wm-light: #FFF7ED;
+$n-lt-grey: #BDC6C3;
+$n-dk-grey: #4F5959;
+$n-black: #021F25;
+$n-white-translucent: transparentize($n-white, 0.35);
+
+// Font Colors
+$base-font-color: $n-black;
+$action-color: $b-md-warm;
+
+// Border
+$base-border-color: $n-black;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$viewport-background-color: $n-white;
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Box Shadows
+$box-shadow-button: 0 2px 1px 0 rgba(0, 0, 0, 0.15);
+$box-shadow-sharp: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+$box-shadow-sharp-vertical: 0 4px 4px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-faint: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+$box-shadow-faint-vertical: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Misc
+$base-border-radius: 0.25rem;
+$base-z-index: 0;

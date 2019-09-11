@@ -1,0 +1,48 @@
+---
+title: I'm gonna GITcha.
+---
+
+<div class="page-content">
+
+
+  <div class="main-content [ u-padding-3 u-max-width-content ]">
+
+    <h2 class="[ u-font-family-mono u-font-size-5 ]">master</h2>
+    <div class="b-content-box [ u-bkg-color-white u-border-all u-margin-top-minus-2 ]">
+        <%= partial("partials/definition", :locals => {
+          :term => data.definitions.remoteMaster.term,
+          :detail => data.definitions.remoteMaster.detail }) %>
+  
+        <%= partial("partials/definition", :locals => {
+          :term => data.definitions.remoteAnyBranchName.term,
+          :detail => data.definitions.remoteAnyBranchName.detail }) %>
+    </div>
+
+    <%= partial("partials/definition", :locals => {
+      :term => data.definitions.rebaseMerge.term,
+      :detail => data.definitions.rebaseMerge.detail }) %>
+
+    <h2 class="[ u-font-family-mono u-font-size-5 ]">local</h2>
+
+    <div class="b-content-box [ u-bkg-color-white u-border-all u-margin-top-minus-2 ]">
+      <%= partial("partials/definition", :locals => {
+        :term => data.definitions.localMaster.term,
+        :detail => data.definitions.localMaster.detail }) %>
+
+      <%= partial("partials/definition", :locals => {
+        :term => data.definitions.localYourBranchName.term,
+        :detail => data.definitions.localYourBranchName.detail }) %>
+        
+      <%= partial("partials/definition", :locals => {
+        :term => data.definitions.localAnotherBranchName.term,
+        :detail => data.definitions.localAnotherBranchName.detail }) %>
+    </div>
+  </div>
+
+
+  <!-- <%= partial "partials/brand-stripe" %> -->
+
+</div>
+
+
+

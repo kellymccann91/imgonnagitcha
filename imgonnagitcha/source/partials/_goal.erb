@@ -1,0 +1,25 @@
+<div class="m-goal">
+  <h3 class="m-goal__outcome">
+    <%= outcome %>
+  </h3>
+  <ol class="m-goal__steps [ u-padding-4 u-line-height-loose u-font-size-3 ]">  
+    <!-- See https://middlemanapp.com/advanced/data-files/ for ~looping capabilities; doesn't seem possible to nest variables. -->
+    <li>
+        <div class="m-goal__step-command"><%= stepOneCommand %></div>
+        <div class="m-goal__step-explaination"><%= stepOneExplaination %></div>
+    </li>
+    <li>
+        <div class="m-goal__step-command"><%= stepTwoCommand %></div>
+        <div class="m-goal__step-explaination"><%= stepTwoExplaination %></div>
+    </li>
+    <li>
+        <div class="m-goal__step-command"><%= stepThreeCommand %></div>
+        <div class="m-goal__step-explaination"><%= stepThreeExplaination %></div>
+    </li>
+    <li>
+        <div class="m-goal__step-command"><%= stepFourCommand %></div>
+        <div class="m-goal__step-explaination"><%= stepFourExplaination %></div>
+    </li>
+  </ol>
+</div>
+
