@@ -1,0 +1,43 @@
+.m-definition {
+    align-items: center;
+    // border-bottom: $base-border;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @media screen and (min-width: $breakpoint-large) {
+        // border: none;
+        flex-direction: row;
+    }
+}
+
+.m-definition__term {
+    color: $n-dk-grey;
+    font-family: $mono-font-family;
+    font-size: $font-size-momma-shark;
+    height: 100%;
+    width: 100%;
+
+    @media screen and (min-width: $breakpoint-large) {
+        width: 40%;
+    }
+}
+
+.m-definition__serif-term {
+    font-family: $base-font-family;
+}
+
+.m-definition__detail {
+    border-bottom: $base-border;
+    width: 100%;
+
+    @media screen and (min-width: $breakpoint-large) {
+        border: none;
+        width: 60%;
+    }
+}
+
+.m-definition__mono-detail {
+    color: $b-dk-warm;
+    font-family: $mono-font-family;
+}

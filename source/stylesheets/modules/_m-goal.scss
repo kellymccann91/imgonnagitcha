@@ -1,0 +1,37 @@
+.m-goal {
+
+}
+.m-goal__outcome {
+    font-size: $font-size-momma-shark;
+}
+.m-goal__steps {
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+}
+
+.m-goal__steps li {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+}
+
+.m-goal__step-command {
+    grid-column: 1;
+    font-family: $mono-font-family;
+    padding: $spacing-shorter $spacing-short $spacing-short 0;
+}
+
+.m-goal__step-explaination {
+    grid-column: 2;
+    padding: $spacing-shorter 0 $spacing-shorter $spacing-shorter;
+}
+
+
+.m-goal__step-explaination--mono {
+    color: $b-dk-warm;
+    font-family: $mono-font-family;
+}

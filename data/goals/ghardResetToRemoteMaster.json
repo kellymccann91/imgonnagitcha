@@ -1,0 +1,9 @@
+{
+    "outcome": "Hard Reset to Remote master",
+    "commands": [
+        "git checkout master<br>git reset --hard origin/master"
+    ],
+    "explained": [
+        "Navigate to your local master branch and force pull from remote master.<br>You can run <span class='m-goal__step-explaination--mono'>git status</span> from here to ensure your changes went through."
+    ]
+}

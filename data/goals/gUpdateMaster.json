@@ -1,0 +1,12 @@
+{
+    "outcome": "Update Master to pull in any recent changes",
+    "commands": [
+        "git checkout master",
+        "git pull origin master"
+    ],
+    "explained": [
+        "Navigate to your local master branch",
+        "Transfer the lastest GitHub changes onto your local branch (master)"
+    ]
+}
+

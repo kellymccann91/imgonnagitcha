@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,700&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+      //uncomment and change this to false if you're having trouble with WOFFs
+      //var woffEnabled = true;
+      //to place your webfonts in a custom directory uncomment this and set it to where your webfonts are.
+      //var customPath = "/fonts";
+    </script>
+
+    <!-- wayyy to many fonts loading rn - this is for testing fonts only -->
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Cormorant+Garamond:500|Cutive+Mono|EB+Garamond|Gilda+Display|IBM+Plex+Mono|Ovo|Quattrocento&display=swap" rel="stylesheet">
+
+
+    <script
+      src="https://code.jquery.com/jquery-1.7.1.min.js"
+      integrity="sha256-iBcUE/x23aI6syuqF7EeT/+JFBxjPs5zeFJEXxumwb0="
+      crossorigin="anonymous">
+    </script>
+
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "I'm gonna gitcha." %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    
+    
+
+    <main id="main">
+      <%= yield %>
+    </main>
+
+
+  </body>
+
+</html>

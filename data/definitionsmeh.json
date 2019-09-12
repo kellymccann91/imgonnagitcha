@@ -1,0 +1,29 @@
+{
+  "remoteMaster": {
+    "term": "master",
+    "detail":  "This is your source of truth. The remote master (origin master) should only house code that has been approved for a merge post-pull request (PR). As you’re getting started, never push to the remote master."
+  },
+  "remoteAnyBranchName": {
+    "term": "&lt;any_branch_name&gt;",
+    "detail": "Branch names on remote will match the name of branches you or your teammates create and <span class='m-definition__mono-detail'>push</span>."
+  },
+  "rebaseMerge": {
+    "term": "rebase <span class='m-definition__serif-term'>vs.</span> merge",
+    "detail": "<span class='m-definition__mono-detail'>rebase</span> differs from <span class='m-definition__mono-detail'>merge</span> by rewriting the commit history to produce a straight, linear succession of commits. Prioritize using <span class='m-definition__mono-detail'>rebase</span> at thoughtbot.<br><br>*Note that rebasing will alter the local commit hash, making it differ from the remote commit hash for your branch. To push from a branch that has been rebased, use the <span class='m-definition__mono-detail'>-f</span> (force) command."
+  },
+  "localMaster": {
+    "term": "master",
+    "detail":  "When you initialize git, you will automatically have a master branch. Use this branch to <span class='m-definition__mono-detail'>pull</span> from the remote master branch (<span class='m-definition__mono-detail'>origin master</span>). Create a <span class='m-definition__mono-detail'>branch</span> from master to begin a project and edit code."
+  },
+  "localYourBranchName": {
+    "term": "&lt;your_branch_name&gt;",
+    "detail": "Always work form branches on your local.  When you <span class='m-definition__mono-detail'>push</span> your local branch, you will see your branch name reflected on the remote repository."
+  },
+  "localAnotherBranchName": {
+    "term": "&lt;another_branch_name&gt;",
+    "detail": "You may <span class='m-definition__mono-detail'>pull</span> from a branch created by someone else after that person has pushed to remote."
+  }
+}
+
+
+

@@ -1,0 +1,27 @@
+html {
+    background-color: $viewport-background-color;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: auto;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+
+}
+
+.b-content-box {
+    margin-top: -1.70rem;
+}

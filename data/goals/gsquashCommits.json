@@ -1,0 +1,15 @@
+{
+    "outcome": "Squash Commits (multiple commits to single commit)",
+    "commands": [
+        "git checkout master",
+        "git pull origin master",
+        "git checkout <your-branch-name>",
+        "git rebase -i origin/master"
+    ],
+    "explained": [
+        "Navigate to your local master branch.",
+        "Pull from the remote master branch to ensure that your master has the latest GitHub changes.",
+        "Navigate to your local branch.",
+        "Rebase current branch (<span class='m-goal__step-explaination--mono'>my-new-branch</span>) against the Github's master branch. <span class='m-goal__step-explaination--mono'>-i</span> triggers an interactive state. This opens a rebase session in Vim."
+    ]
+}
