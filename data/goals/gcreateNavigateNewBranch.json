@@ -1,0 +1,13 @@
+{
+    "outcome": "Create and navigate to a new branch",
+    "commands": [
+        "git branch <your-branch-name>",
+        "git checkout <your-branch-name>",
+        "git checkout -b <your-branch-name>"
+    ],
+    "explained": [
+        "Create a new branch titled <span class='m-goal__step-explaination--mono'>your-branch-name</span>. This branch will be cloned from the branch you currently have open.",
+        "Navigate to <span class='m-goal__step-explaination--mono'>your-branch-name</span>.",
+        "Accomplishes the above two commands within a single command."
+    ]
+}

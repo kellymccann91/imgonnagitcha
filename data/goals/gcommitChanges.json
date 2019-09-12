@@ -1,0 +1,13 @@
+{
+    "outcome": "Commit Changes",
+    "commands": [
+        "git status",
+        "git add <path/to/file><br>git add .",
+        "git commit -m “some message about code changes”"
+    ],
+    "explained": [
+        "Show a high-level view of files that have been changed.",
+        "Tell git to prepare the changes to be committed/saved, either to a particular file (<span class='m-goal__step-explaination--mono'>path/to/file</span>) or to all files (<span class='m-goal__step-explaination--mono'>.</span>).",
+        "Save changes with a detailed message (typically about the intent of the code changes)."
+    ]
+}

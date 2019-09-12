@@ -1,0 +1,13 @@
+{
+    "outcome": "<span class='u-text-align-center'>~ inside VIM ~</span>",
+    "commands": [
+        "i",
+        "ctrl + c",
+        ":wq"
+    ],
+    "explained": [
+        "Enter insert mode. This allows you to dictate how to handle each commit listed (according to directions within the session).<br>Note that the first commit listed with the action ‘pick’ will inherit all succeeding commits.",
+        "Exit insert mode.",
+        "Exit VIM and continue the rebase process by applying the changes entered (stands for 'write' and 'quit')."
+    ]
+}

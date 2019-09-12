@@ -1,0 +1,19 @@
+<div class="m-goal [ u-padding-2 ]">
+  <h3 class="m-goal__outcome">
+    <%= outcome %>
+  </h3>
+  <div class="m-goal__steps">
+    <% commands.each do |c| %>
+      <div class="m-goal__step-command">
+        <%= c %>
+      </div>
+    <% end %>
+
+    <% explained.each do |e| %>
+      <div class="m-goal__step-explaination">
+        <%= e %>
+      </div>
+    <% end %>
+  </div>
+</div>
+  

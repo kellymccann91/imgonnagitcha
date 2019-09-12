@@ -1,0 +1,13 @@
+.m-brand-stripe {
+    height: 100vh;
+    margin-left: calc(100vw - 5rem);
+    overflow-y: scroll;
+    position: absolute;
+    width: 5rem;
+}
+
+.m-brand-stripe__text {
+    font-family: $mono-font-family;
+    font-size: $font-size-momma-shark;
+    transform: rotate(90deg);
+}

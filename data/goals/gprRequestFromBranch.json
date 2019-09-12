@@ -1,0 +1,13 @@
+{
+    "outcome": "Create a pull request from your branch / <span class='m-goal__step-explaination--mono'>push</span> to GitHub",
+    "commands": [
+        "git push origin <your-branch-name>",
+        "git push origin <your-branch-name> -f",
+        "git checkout -b <your-branch-name>"
+    ],
+    "explained": [
+        "Push code within the currently open branch to the remote branch called <span class='m-goal__step-explaination--mono'>your-branch-name</span>. If this is your first time submitting this command, a branch called <span class='m-goal__step-explaination--mono'>your-branch-name</span> will be created within the remote repository.",
+        "Navigate to <span class='m-goal__step-explaination--mono'>your-branch-name</span>.",
+        "Accomplishes the above two commands within a single command."
+    ]
+}

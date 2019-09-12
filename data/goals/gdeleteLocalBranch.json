@@ -1,0 +1,11 @@
+{
+    "outcome": "Delete a local GIT branch",
+    "commands": [
+        "git branch -d <your-branch-name>",
+        "git branch -D <your-branch-name>"
+    ],
+    "explained": [
+        "Normal delete.",
+        "Force delete."
+    ]
+}

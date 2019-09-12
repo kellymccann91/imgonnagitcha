@@ -1,0 +1,25 @@
+.m-header {
+  background-color: $b-dk-neutral;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 20rem;
+}
+
+.m-header__wrapper a {
+  text-decoration: none;
+} 
+.m-header__wrapper a h1 {
+  color: $n-white;
+  font-family: $mono-font-family;
+}
+
+.m-header__toc ul li {
+  list-style-type: none;
+}
+.m-header__toc ul li a {
+  color: $n-white;
+  text-decoration: none;
+}
+

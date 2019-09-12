@@ -1,0 +1,26 @@
+.u-max-width-content {
+  max-width: $max-width-small;
+
+  @media screen and (min-width: $breakpoint-large) {
+    max-width: $max-width-large;
+    margin: 0 auto;
+  }
+}
+
+.u-max-width-content-mobile {
+  max-width: $max-width-small;
+}
+
+
+.u-max-width-content-desktop {
+    max-width: $max-width-large;
+    margin: 0 auto;
+}
+
+.u-max-width-no-container {
+  padding: 0 $spacing-shorter;
+
+  @media screen and (min-width: $breakpoint-small) {
+    padding: 0 $spacing-short;
+  }
+}

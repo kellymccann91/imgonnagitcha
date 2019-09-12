@@ -1,0 +1,88 @@
+---
+title: I'm gonna GITcha.
+---
+
+<div class="page-content">
+
+
+  <div class="main-content [ u-padding-3 u-max-width-content ]">
+
+    <h2 class="[ u-font-family-mono u-font-size-5 ]">master</h2>
+    <div class="b-content-box [ u-bkg-color-white u-border-all u-margin-top-minus-2 ]">
+        <%= partial("partials/definition", :locals => {
+          :term => data.definitionsmeh.remoteMaster.term,
+          :detail => data.definitionsmeh.remoteMaster.detail }) %>
+  
+        <%= partial("partials/definition", :locals => {
+          :term => data.definitionsmeh.remoteAnyBranchName.term,
+          :detail => data.definitionsmeh.remoteAnyBranchName.detail }) %>
+    </div>
+
+    <%= partial("partials/definition", :locals => {
+      :term => data.definitionsmeh.rebaseMerge.term,
+      :detail => data.definitionsmeh.rebaseMerge.detail }) %>
+
+    <h2 class="[ u-font-family-mono u-font-size-5 ]">local</h2>
+
+    <div class="b-content-box [ u-bkg-color-white u-border-all u-margin-top-minus-2 ]">
+      <%= partial("partials/definition", :locals => {
+        :term => data.definitionsmeh.localMaster.term,
+        :detail => data.definitionsmeh.localMaster.detail }) %>
+
+      <%= partial("partials/definition", :locals => {
+        :term => data.definitionsmeh.localYourBranchName.term,
+        :detail => data.definitionsmeh.localYourBranchName.detail }) %>
+        
+      <%= partial("partials/definition", :locals => {
+        :term => data.definitionsmeh.localAnotherBranchName.term,
+        :detail => data.definitionsmeh.localAnotherBranchName.detail }) %>
+
+      <%= partial("partials/goal", :locals => {
+        :outcome => data.goals.gUpdateMaster.outcome,
+        :commands => data.goals.gUpdateMaster.commands,
+        :explained => data.goals.gUpdateMaster.explained }) %>
+
+      <%= partial("partials/goal", :locals => {
+        :outcome => data.goals.ghardResetToRemoteMaster.outcome,
+        :commands => data.goals.ghardResetToRemoteMaster.commands,
+        :explained => data.goals.ghardResetToRemoteMaster.explained }) %>
+      
+      <%= partial("partials/goal", :locals => {
+        :outcome => data.goals.gcreateNavigateNewBranch.outcome,
+        :commands => data.goals.gcreateNavigateNewBranch.commands,
+        :explained => data.goals.gcreateNavigateNewBranch.explained }) %>
+      
+      <%= partial("partials/goal", :locals => {
+        :outcome => data.goals.gprRequestFromBranch.outcome,
+        :commands => data.goals.gprRequestFromBranch.commands,
+        :explained => data.goals.gprRequestFromBranch.explained }) %>
+
+      <%= partial("partials/goal", :locals => {
+        :outcome => data.goals.gcommitChanges.outcome,
+        :commands => data.goals.gcommitChanges.commands,
+        :explained => data.goals.gcommitChanges.explained }) %>
+      
+      <%= partial("partials/goal", :locals => {
+        :outcome => data.goals.gsquashCommits.outcome,
+        :commands => data.goals.gsquashCommits.commands,
+        :explained => data.goals.gsquashCommits.explained }) %>
+
+      <%= partial("partials/goal", :locals => {
+        :outcome => data.goals.ginsideVIM.outcome,
+        :commands => data.goals.ginsideVIM.commands,
+        :explained => data.goals.ginsideVIM.explained }) %>
+      
+    </div>
+
+    <%= partial("partials/goal", :locals => {
+      :outcome => data.goals.gdeleteLocalBranch.outcome,
+      :commands => data.goals.gdeleteLocalBranch.commands,
+      :explained => data.goals.gdeleteLocalBranch.explained }) %>
+
+
+  </div>
+
+
+  <!-- <%= partial "partials/brand-stripe" %> -->
+
+</div>
